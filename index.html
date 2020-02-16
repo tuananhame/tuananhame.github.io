@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vũ Tuấn Anh</title>
+
+    <!-- Preloader CSS -->
+    <script src="js/pace.min.js"></script>
+
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- Meta description and keywords -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Shortcut icons And Apple touch icon -->
+    <link rel="shortcut icon" href="img/M_128px_1168314_easyicon.net.png">
+    <link rel="apple-touch-icon" href="img/img/M_128px_1168314_easyicon.net.png">
+
+    <!-- Preloader CSS -->
+    <link rel="stylesheet" href="css/pace.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Universal stylesheet (Shouldbe used with all pages portfolio pages) -->
+    <link rel="stylesheet" href="css/portfolio.css">
+
+    <!-- Custom CSS < Editable > -->
+    <link rel="stylesheet" href="css/pages/single-portfolio.css">
+
+    <!-- Custom CSS (color theme) < Editable > -->
+    <link rel="stylesheet" href="css/color-theme/portfolio/blue.css">
+
+    <!-- CSS Only for demo delete in original vrsion -->
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/mumu.css" />
+</head>
+<!-- Body starts here -->
+
+<body data-spy="scroll" data-target=".navbar">
+    <!-- Overlay visible only while loading of page -->
+    <div class="overlay"></div>
+    <div class="layout full-width">
+        <!-- Portfolio showcase starts here -->
+        <section id="port-showcase" class="port-showcase">
+            <div class="wrapper">
+                <div class="container head">
+                    <div class="row text-right">
+                        <div class="head-content">
+                            <!-- Portfolio Heading -->
+                            <h3 class="heading inline txt-md">CV của tôi</h3>
+                            <!-- Navbar toggle button (Visible only on large devices) -->
+                            <button type="button" class="btn btn-lg border-btn btn-default nav-toggle"><span class="fa fa-bars"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- About me section start here -->
+                <div class="container about-me">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- User image -->
+                            <div class="img img-responsive img-circle img-profile img-head">
+
+                            </div>
+                            <img src="img/avatars/4.pic_hd.jpg" alt="user" style="display: none;">
+                        </div>
+                        <div class="col-md-6">
+                            <!-- User name  -->
+                            <h3 class="heading txt-md">Vũ Tuấn Anh</h3>
+                            <!-- Short description of user -->
+                            <p style="font-size: 16px;">22 tuổi <br />Lập trình front-end <br />tuananh.ame@gmail.com</p>
+                            <p>7 lần vấp ngã thì 8 lần đứng dậy. Rồi sẽ có 1 ngày thành công tới</p>
+
+                            <!-- Buttons not visible on mobile device -->
+                            <!-- Contact me button (Scroll to the contact section) -->
+
+                            <a href="#" class="btn hidden-xs btn-success btn-lg border-btn btn-icon btn-icon-right" data-scroll-target=".port-contact">Liên lạc với tôi <span class="fa fa-chevron-right"></span></a>
+                            <!-- Social Buttons -->
+                            <!--<a href="#" class="btn hidden-xs btn-primary btn-circle btn-lg border-btn social-btn"><span class="fa fa-facebook"></span></a>
+								<a href="#" class="btn hidden-xs btn-info btn-circle btn-lg border-btn social-btn"><span class="fa fa-twitter"></span></a>
+								<a href="#" class="btn hidden-xs btn-danger btn-circle btn-lg border-btn social-btn"><span class="fa fa-google-plus"></span></a>-->
+
+                            <!-- Buttons only visible on mobile device -->
+                            <!-- Contact me button (Scroll to the contact section) -->
+                            <a href="#" class="btn visible-xs btn-block btn-success btn-lg border-btn" data-scroll-target=".port-contact">Liên lạc với tôi</a>
+                            <!-- Social Buttons -->
+                            <!--<div class="text-center">
+									<a href="#" class="btn visible-xs-inline-block btn-primary btn-circle btn-lg border-btn social-btn"><span class="fa fa-facebook"></span></a>
+									<a href="#" class="btn visible-xs-inline-block btn-info btn-circle btn-lg border-btn social-btn"><span class="fa fa-twitter"></span></a>
+									<a href="#" class="btn visible-xs-inline-block btn-danger btn-circle btn-lg border-btn social-btn"><span class="fa fa-google-plus"></span></a>
+								</div>-->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Arrow to next section (visible only on large devices) -->
+                <div class="container navigator">
+                    <div class="row text-center visible-lg visible-md">
+                        <a href="#" data-scroll-target=".port-skills"><span class="fa fa-chevron-down fa-1x"></span></a>
+                        <a href="#" data-scroll-target=".port-skills"><span class="fa fa-chevron-down fa-2x"></span></a>
+                        <a href="#" data-scroll-target=".port-skills"><span class="fa fa-chevron-down fa-3x"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section starts here -->
+        <section id="port-skills" class="port-skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- Section heading -->
+                        <h1 class="heading">Kĩ năng chuyên môn</h1>
+                        <!-- Divider -->
+                        <div class="ul ul-line"><span></span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 text-center clearfix">
+                            <!-- Skill circle -->
+                            <div class="circle back_skill" id="html_circle"></div>
+                            <p class="skill_name">HTML</p>
+                            <!-- Skill name -->
+                            <div class="col-xs-12 circle-desc text-center" style="display: none;"><span class="inline txt-sm color">
+									<ul class="skill_text">
+										<li>Sử dụng thành thạo các thẻ html</li>
+										<li>Có thể làm việc với XML, XHTML</li>
+									
+									</ul>
+									</span></div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 text-center clearfix">
+                            <!-- Skill circle -->
+                            <div class="circle back_skill" id="css_circle"></div>
+                            <p class="skill_name">CSS</p>
+                            <!-- Skill name -->
+                            <div class="col-xs-12 circle-desc text-center" style="display: none;"><span class="inline txt-sm color">
+									<ul class="skill_text">
+										<li>Có thể làm việc với các thuộc tính CSS, CSS3</li>
+										<li>Nắm vững khung làm việc với Bootstrap</li>
+									</ul>
+									</span></div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 text-center clearfix">
+                            <!-- Skill circle -->
+                            <div class="circle back_skill" id="js_circle"></div>
+                            <p class="skill_name">JS</p>
+                            <!-- Skill name -->
+                            <div class="col-xs-12 circle-desc text-center" style="display: none;"><span class="inline txt-sm color">
+									<ul class="skill_text">
+										<li>Nắm vững jQuery,ReactJS</li>
+										<li>Sử dụng cơ bản ajax, json</li>
+										<li>Liên tục học JavaScript, node.js, v.v.</li>
+									</ul>
+									</span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education section starts here -->
+        <section id="port-education" class="port-education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- section heading -->
+                        <h1 class="heading">Về bản thân</h1>
+                        <div class="ul ul-line"><span></span></div>
+                        <div class="col-sm-4">
+                            <!-- Education Block -->
+                            <div class="col-xs-12 float well my-edu">
+                                <!-- Degree Name -->
+                                <h5 class="heading txt-xs txt-n">Học vấn</h5>
+                                <!-- College -->
+                                <h6><span class="fa fa-institution"></span><span class="college">Đại học công nghệ - ĐHQG Hà Nội</span></h6>
+                                <!-- Year -->
+                                <h6><span class="fa fa-graduation-cap"></span><span class="college">2017-20xx</span></h6>
+                                <!-- Persentile -->
+                                <h6><span class="fa fa-pie-chart"></span><span class="college">Chuyên ngành CNTT - Tiếng Nhật. Yêu thích lập trình Web</span></h6>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-4">
+                            <!-- Education Block -->
+                            <div class="col-xs-12 float well my-edu">
+                                <!-- Degree name -->
+                                <h5 class="heading txt-xs txt-n">Nhân viên làm đồ ăn nhanh</h5>
+                                <!-- College -->
+                                <h6><span class="fa fa-suitcase"></span><span class="college">Mc Donald's Viet Nam</span></h6>
+                                <!-- Year -->
+                                <h6><span class="fa fa-graduation-cap"></span><span class="college">2019.4-2020.2</span></h6>
+                                <!-- Persentile -->
+                                <h6><span class="fa fa-pie-chart"></span><span class="college">Tuy không liên qua tới chuyên ngành nhưng đã học hỏi được nhiều về cách giao tiếp, ứng xử trong môi trường làm việc hiện đại và nhiều nhân viên và quản lý làm việc cùng với nhau</span></h6>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <!-- Education Block -->
+                            <div class="col-xs-12 float well my-edu">
+                                <!-- Degree Name -->
+                                <h5 class="heading txt-xs txt-n">Tốt nghiệp khoá học ngắn hạn</h5>
+                                <!-- College -->
+                                <h6><span class="fa fa-suitcase"></span><span class="college">T3H School</span></h6>
+                                <!-- Year -->
+                                <h6><span class="fa fa-graduation-cap"></span><span class="college">2020.2-20xx.x</span></h6>
+                                <!-- Persentile -->
+                                <h6><span class="fa fa-pie-chart"></span><span class="college">Nắm chắc được kiến thức làm việc với git, sử dụng thành thạo ReactJS </span></h6>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Starts here -->
+        <section id="port-folio" class="port-folio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- Section heading -->
+                        <h1 class="heading txt-n">Hoạt động của tôi</h1>
+                        <div class="ul ul-line"><span></span></div>
+                        <!-- Portfolio Filters -->
+                        <div class="col-sm-12 text-center">
+                            <button type="button" class="btn btn-warning btn-md  border-btn portfolio-item-filter" data-filter=".cat-web">Hoạt động tình nguyện</button>
+                            <button type="button" class="btn btn-danger btn-md border-btn portfolio-item-filter" data-filter=".cat-logo">Cùng bạn bè</button>
+                            <button type="button" class="btn btn-info btn-md border-btn portfolio-item-filter" data-filter=".cat-dev">Sở thích</button>
+                        </div>
+                        <div class="port-item-wrapper" id="port-item-wrapper">
+                            <!-- Portfolio Item -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item text-center cat-web pangu">
+                                <figure>
+                                    <!-- Portfolio Image -->
+
+                                    <img src="img/portfolio/portfolio1.jpg" class="img img-responsive" alt="portfolio Image" />
+
+                                    <figcaption>
+                                        <!-- Portfolio Description Heading (Portfolio Item Name) -->
+                                        <h3 class="heading text-center txt-sm txt-n animated fadeInDownBig a-d-0-4">Hiến máu tình nguyện</h3>
+                                        <div class="ul ul-center"><span></span></div>
+                                        <!-- Description Action Buttons (i.e. Share like View etc) -->
+
+
+
+                                    </figcaption>
+
+                                </figure>
+
+                            </div>
+                            <!-- Portfolio Item -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item text-center cat-web jiuyou">
+                                <figure>
+                                    <!-- Portfolio Image -->
+                                    <img src="img/portfolio/portfolio2.png" class="img img-responsive" alt="portfolio Image" />
+                                    <figcaption>
+                                        <!-- Portfolio Description Heading (Portfolio Item Name)-->
+                                        <h3 class="heading text-center txt-sm txt-n animated fadeInDownBig a-d-0-4">Tổ chức trung thu tại vùng cao Yên Bái</h3>
+                                        <div class="ul ul-center"><span></span></div>
+                                        <!-- Description Action Buttons (i.e. Share like View etc) -->
+
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!-- Portfolio Item -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item text-center cat-logo message">
+                                <figure>
+                                    <!-- Portfolio Image -->
+                                    <img src="img/portfolio/portfolio3.jpg" class="img img-responsive" alt="portfolio Image" />
+                                    <figcaption>
+                                        <!-- Portfolio Description Heading (Portfolio Item Name)-->
+                                        <h3 class="heading text-center txt-sm txt-n animated fadeInDownBig a-d-0-4">Tham gia khoá tu tại chùa</h3>
+                                        <div class="ul ul-center"><span></span></div>
+                                        <!-- Description Action Buttons (i.e. Share like vView etc) -->
+
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!-- Portfolio Item -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item text-center cat-logo wecheat">
+                                <figure>
+                                    <!-- Portfolio Image -->
+                                    <img src="img/portfolio/portfolio8.jpg" class="img img-responsive" alt="portfolio Image" />
+                                    <figcaption>
+                                        <!-- Portfolio Description Heading (Portfolio Item Name)-->
+                                        <h3 class="heading text-center txt-sm txt-n animated fadeInDownBig a-d-0-4">Hội trại cùng CLB tiếng Nhật</h3>
+                                        <div class="ul ul-center"><span></span></div>
+                                        <!-- Description Action Buttons (i.e. Share like View etc) -->
+
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!-- Portfolio Item -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item text-center cat-dev dom">
+                                <figure>
+                                    <!-- Portfolio Image -->
+                                    <img src="img/portfolio/portfolio5.jpg" class="img img-responsive" alt="portfolio Image" />
+                                    <figcaption>
+                                        <!-- Portfolio Description Heading (Portfolio Item Name)-->
+                                        <h3 class="heading text-center txt-sm txt-n animated fadeInDownBig a-d-0-4">Thi viết thư pháp tại lớp</h3>
+                                        <div class="ul ul-center"><span></span></div>
+                                        <!-- Description Action Buttons (i.e. Share like View etc) -->
+
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!-- Portfolio Item -->
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item text-center cat-dev js">
+                                <figure>
+                                    <!-- Portfolio Image -->
+                                    <img src="img/portfolio/portfolio6.jpg" class="img img-responsive" alt="portfolio Image" />
+                                    <figcaption>
+                                        <!-- Portfolio Description Heading (Portfolio Item Name)-->
+                                        <h3 class="heading text-center txt-sm txt-n animated fadeInDownBig a-d-0-4">Phượt tại Mù Căng Chải</h3>
+                                        <div class="ul ul-center"><span></span></div>
+                                        <!-- Description Action Buttons (i.e. Share like View etc) -->
+
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section starts here -->
+        <section id="port-contact" class="port-contact">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- section heading -->
+                            <h3 class="heading txt-md txt-n text-center">Liên lạc với tôi</h3>
+                            <div class="ul ul-center"><span></span></div>
+
+                            <div class="row">
+
+                                <div class="col-sm-12 contact-me">v
+                                    <p class="highlight">Vũ Tuấn Anh</p>
+                                    <p><a href="mailto:tuananh.ame@gmail.com" target="###">tuananh.ame@gmail.com</a></p>
+                                    <p><a href="https://www.facebook.com/anhhtuanvu1">FaceBook</a></p>
+                                    <p><a href="https://www.instagram.com/akiramenaide___/">Instagram</a></p>
+                                    <p class="highlight1">Muốn đi nhanh thì đi một mình</p>
+                                    <p class="highlight1">Muốn đi xa thì hãy đi cùng nhau....</p>
+                                    <a href="cv/21Q.pdf" class="download">Tải về CV của tôi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>v
+        </section>
+        <!-- Footer Section starts here -->
+        <section id="port-foot" class="port-foot">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <!-- Footer Copyright link -->
+
+                        <div class="ul ul-center ul-line ul-line-sm"><a href="#" data-scroll-target=".port-showcase"><span data-bgcolor="rgba(25, 23, 23, 0.99)" class="fa fa-chevron-up"></span></a></div>
+                        <div class="links">
+                            <a href="https://t.me/anhhtuanvu1" target="_blank">Telegram</a>
+                            <a href="https://chatwork.com/anhhtuanvu" target="_blank">Chatwork</a>
+                            <a href="https://www.facebook.com/messages/t/anhhtuanvu1" target="_blank">Messenger</a>
+                            <a href="https://github.com/tuananhame/" target="_blank">Github</a>
+                        </div>
+                        <h6 class="designer">Powered By <a href="https://www.facebook.com/anhhtuanvu1/" target="_blank">Vũ Tuấn Anh</a></h6>
+                        <h6 class="designer">All Rights Reserved </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <!-- Collapse button visible only on small devices -->
+                    <button type="button" class="btn btn-lg border-btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target="#relient-portfolio-nav"><span class="fa fa-bars"></span></button>
+                    <!-- Portfolio Name -->
+                    <a class="heading inline txt-sm navbar-brand" href="#">CV của tôi</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="relient-portfolio-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#port-showcase" data-scroll-target="#port-showcase">Trang chủ</a></li>
+                        <li><a href="#port-skills" data-scroll-target="#port-skills">Kỹ năng chuyên môn</a></li>
+                        <li><a href="#port-education" data-scroll-target="#port-education">Về tôi</a></li>
+                        <li><a href="#port-folio" data-scroll-target="#port-folio">Công việc của tôi</a></li>
+                        <li><a href="#port-contact" data-scroll-target="#port-contact">Liên lạc với tôi</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Universal js < Editable > -->
+    <script src="js/portfolio.js"></script>
+
+    <!-- Custom Page Specific js < Editable > -->
+    <script src="js/pages/single-portfolio.js"></script>
+
+    <!-- Style switcher for demo page only -->
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
