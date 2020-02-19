@@ -1,2 +1,3 @@
-# tuananhame.github.io
-My CV Online 
+##CV of Tianrui Mu
+-dom:dom pratice
+-js-partice:js 
