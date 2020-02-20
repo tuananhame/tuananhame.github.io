@@ -92,19 +92,19 @@ $(document).ready(function() {
             $("nav").toggleClass('active-mobile');
     });
     $(".pangu").click(function() {
-        window.open("https://tuananhame.github.io/#")
+        window.open("#")
     })
     $(".jiuyou").click(function() {
-        window.open("https://tuananhame.github.io/#")
+        window.open("#")
     })
     $(".wecheat").click(function() {
-        window.open("https://tuananhame.github.io/#")
+        window.open("#")
     })
     $(".dom").click(function() {
-        window.open("https://tuananhame.github.io/#")
+        window.open("#")
     })
     $(".js").click(function() {
-        window.open("https://tuananhame.github.io/#")
+        window.open("#")
     })
     $(".message").click(function() {
         alert("hihi")
