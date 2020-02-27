@@ -91,23 +91,24 @@ $(document).ready(function() {
         if ($(window).scrollTop() < 200 && $(window).innerWidth() <= 769)
             $("nav").toggleClass('active-mobile');
     });
-    $(".pangu").click(function() {
-        window.open("")
-    })
-    $(".jiuyou").click(function() {
-        window.open("")
-    })
-    $(".wecheat").click(function() {
-        window.open("")
-    })
-    $(".dom").click(function() {
-        window.open("")
-    })
-    $(".js").click(function() {
-        window.open("")
-    })
-    $(".message").click(function() {
-        alert("hihi")
-    })
-    $(".download").click(function() {})
+
+    // $(".pangu").click(function() {
+    //     window.open("")
+    // })
+    // $(".jiuyou").click(function() {
+    //     window.open("")
+    // })
+    // $(".wecheat").click(function() {
+    //     window.open("")
+    // })
+    // $(".dom").click(function() {
+    //     window.open("")
+    // })
+    // $(".js").click(function() {
+    //     window.open("")
+    // })
+    // $(".message").click(function() {
+    //     alert("hihi")
+    // })
+    // $(".download").click(function() {})
 });
