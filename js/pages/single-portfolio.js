@@ -92,19 +92,19 @@ $(document).ready(function() {
             $("nav").toggleClass('active-mobile');
     });
     $(".pangu").click(function() {
-        window.open("#")
+        window.open("")
     })
     $(".jiuyou").click(function() {
-        window.open("#")
+        window.open("")
     })
     $(".wecheat").click(function() {
-        window.open("#")
+        window.open("")
     })
     $(".dom").click(function() {
-        window.open("#")
+        window.open("")
     })
     $(".js").click(function() {
-        window.open("#")
+        window.open("")
     })
     $(".message").click(function() {
         alert("hihi")
