@@ -1,42 +1,55 @@
-form{
+form {
     width: 600px;
     margin: 10% 30%;
     border: 1px solid grey;
 }
-table{
+
+table {
     border-collapse: collapse;
     width: 96%;
     margin: 2%;
 }
-p{
+
+p {
     color: green;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
 }
-td{
+
+td {
     border: 1px solid grey;
-    background-color:rgb(201, 235, 201);
+    background-color: rgb(201, 235, 201);
 }
-.col1{
+
+.col1 {
     width: 40%;
     color: rgb(5, 116, 5);
 }
-.but{
+
+.but {
     text-align: center;
 }
-.in1, .in2,.in3,.in4{
+
+.in1,
+.in2,
+.in3,
+.in4 {
     margin: 1px;
 }
-.in1{
+
+.in1 {
     width: 85%;
 }
-.in2{
+
+.in2 {
     width: 75%;
 }
-.in4{
+
+.in4 {
     width: 25%;
 }
-font{
+
+font {
     color: rgb(5, 116, 5);
 }
